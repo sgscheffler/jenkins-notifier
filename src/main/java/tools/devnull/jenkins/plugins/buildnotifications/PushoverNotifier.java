@@ -81,7 +81,7 @@ public class PushoverNotifier extends Notifier {
 
   @Override
   public BuildStepMonitor getRequiredMonitorService() {
-    return BuildStepMonitor.BUILD;
+    return BuildStepMonitor.NONE;
   }
 
   @Override
