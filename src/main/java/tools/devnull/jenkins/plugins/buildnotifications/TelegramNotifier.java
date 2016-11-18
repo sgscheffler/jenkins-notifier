@@ -74,7 +74,7 @@ public class TelegramNotifier extends Notifier {
 
   @Override
   public BuildStepMonitor getRequiredMonitorService() {
-    return BuildStepMonitor.BUILD;
+    return BuildStepMonitor.NONE;
   }
 
   @Override
